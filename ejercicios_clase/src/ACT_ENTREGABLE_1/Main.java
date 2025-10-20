@@ -10,6 +10,9 @@ public class Main {
 
 		System.out.println("Dime un numero de dos cifras: ");
 		int numero = sc.nextInt();
+		
+		NumeroInvertido num = new NumeroInvertido(numero);
+        num.invertirNumero();
 				
 
 	}

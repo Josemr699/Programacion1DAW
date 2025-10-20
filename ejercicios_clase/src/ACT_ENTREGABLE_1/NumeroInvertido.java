@@ -17,6 +17,10 @@ public class NumeroInvertido {
 	}
 	
 	public void invertirNumero() {
-		
+		int primeraCifra = numero / 10;
+		int segundaCifra = numero % 10;
+        int resultado = segundaCifra * 10 + primeraCifra;
+        
+        System.out.println("Número invertido: " + resultado);
 	}
 }
