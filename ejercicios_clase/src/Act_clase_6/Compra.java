@@ -1,4 +1,4 @@
-package Act_clase_3;
+package Act_clase_6;
 
 public class Compra {
 	

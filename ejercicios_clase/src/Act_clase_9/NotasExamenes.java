@@ -1,4 +1,4 @@
-package Act_clase_5;
+package Act_clase_9;
 
 public class NotasExamenes {
 	private double nota1;
