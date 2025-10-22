@@ -49,7 +49,7 @@ public class ViajeCiclista {
 	public void mostrarHoraLlegada() {
 		int tiempoLlegadaSegundos = (horaSalida*3600)+(minutoSalida*60)+segundoSalida+tiempoTotalSegundos;
 		int horaLlegada = (tiempoLlegadaSegundos/3600) %24;
-		int minutoLlegada = (tiempoLlegadaSegundos/3600)%60;
+		int minutoLlegada = (tiempoLlegadaSegundos/60)%60;
 		int segundoLlegada = tiempoLlegadaSegundos %60;
 		System.out.println("Ha llegado a las "+horaLlegada+":"+minutoLlegada+":"+segundoLlegada);
 		

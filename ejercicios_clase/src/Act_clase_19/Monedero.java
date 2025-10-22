@@ -36,23 +36,23 @@ public class Monedero {
 		System.out.println(this.cent10);
 	}
 	
-	public void setDosEuros() {
+	public void setDosEuros(int dosEuros) {
 		this.dosEuros = dosEuros;
 	}
 	
-	public void setUnEuro() {
+	public void setUnEuro(int unEuro) {
 		this.unEuro = unEuro;
 	}
 	
-	public void setCent50() {
+	public void setCent50(int cent50) {
 		this.cent50 = cent50;
 	}
 	
-	public void setCent20() {
+	public void setCent20(int cent20) {
 		this.cent20 = cent20;
 	}
 	
-	public void setCet10() {
+	public void setCet10(int cent10) {
 		this.cent10 = cent10;
 	}
 	
